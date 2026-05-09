@@ -1,16 +1,4 @@
-// PROJE PRATİĞİ 1 --- WEATHER APP
-
-
-
-
-
-// 1- input'tan city al (value)
-// 2- button click -> function çağır
-// 3- fetch(API URL + city)
-// 4- response.ok kontrol
-// 5- response.json()
-// 6- data.main.temp ekrana yazdır
-// 7- try/catch hata yakala
+// WEATHER APP
 
 
 
@@ -62,9 +50,7 @@ function display(data) {
     card.innerHTML = "";
     card.style.display = "flex";
 
-    /*if(!data.name) {
-        alert("Şehir Bulunamadı!");
-    }*/
+   
 
     const city = document.createElement("h1");
     city.textContent = data.name;
