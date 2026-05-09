@@ -38,4 +38,6 @@ No installation required.
 This project uses the OpenWeatherMap API:
 https://openweathermap.org/api
 
+---
 
+## Preview
