@@ -42,4 +42,4 @@ https://openweathermap.org/api
 
 ## Preview
 
-![Weather App](screenshot.png)
+![Weather App](./JAVASCRIPT/resimler/screenshot.png)
