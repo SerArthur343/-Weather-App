@@ -6,7 +6,6 @@
 
 const weatherForm = document.querySelector(".weatherForm");
 const card = document.querySelector(".card");
-const apiKey = "3d446e1319b48f933121ede6e281f48d";
 const B1 = document.querySelector(".B1");
 
 weatherForm.addEventListener("submit", e => {
@@ -28,7 +27,7 @@ async function getWeatherInfo() {
         card.innerHTML = "Loading...⏳";
         card.style.display = "flex";
 
-        const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cityInput}&appid=${apiKey}&lang=en&units=metric`);
+        const response = await fetch(`http://localhost:3000/weather?city=${cityInput}`);
 
         if(!response.ok) {
         throw new Error("Couldn't Find City!");
